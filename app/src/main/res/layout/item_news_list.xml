@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="320px"
+    >
+<TextView
+    android:layout_width="380px"
+    android:layout_height="wrap_content"
+    android:text="爱车保养有技巧，你会那几种？我来告诉你"
+    android:layout_marginLeft="20px"
+    android:layout_marginTop="30px"
+    android:textSize="17sp"
+    android:id="@+id/Title"
+    android:textColor="@color/black"
+    />
+    <ImageView
+        android:layout_width="290px"
+        android:layout_height="170px"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20px"
+        android:src="@drawable/sunny_day"
+        android:id="@+id/iv_news"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="易车网"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20px"
+        android:layout_marginBottom="15px"
+        android:textSize="13sp"
+        android:id="@+id/from"
+        />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="10小时前"-->
+        <!--android:layout_toRightOf="@+id/from"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="15px"-->
+        <!--android:layout_marginLeft="85px"-->
+        <!--android:id="@+id/update"-->
+        <!--/>-->
+</RelativeLayout>
